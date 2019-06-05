@@ -1,8 +1,8 @@
-/*
+
 * {
   border: 1px solid red !important;
 }
-*/
+
 body {
   font-family: 'Times New Roman', Times, serif;
   margin: 8px 0;
@@ -16,6 +16,11 @@ body {
   line-height: 19px;
   margin: 0;
 }
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+}
 .fas.fa-bars {
   float: left;
   margin-left: 1%;
@@ -24,6 +29,40 @@ body {
   float: left;
   margin-left: 2%;
   margin-right: 2%;
+}
+.icons {
+    float: right;
+}
+.icons * {
+    margin: 0px 8px;
+    font-size: 20px;
+}
+.logo {
+    float: none;
+    left: 42%;
+    position: absolute;
+  }
+.main {
+    margin-top: 40px;
+    max-width: 700px;
+    text-align: left;
+    
+}
+.meta-data {
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.02em;
+}
+.meta-data p:nth-child(1) {
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 15px;
+} 
+.meta-data span:nth-child(1) {
+    padding: 10px 0;
+    font-weight: 200;
+    font-size: 12px;
+    color: #333;
 }
 .navbar {
   align-items: center;
@@ -57,12 +96,16 @@ body {
 .nav-button:hover {
   background-color: #326891;
 }
-.logo {
-  float: none;
-  left: 42%;
-  position: absolute;
-}
 .small {
   height: 73%;
   width: auto;
+}
+.title-img {
+    max-width: 1200px;
+    padding-top: 20px;
+
+}
+.title-img img {
+    width: 1200px;
+    height: auto;
 }
