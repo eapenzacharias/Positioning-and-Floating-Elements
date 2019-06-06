@@ -7,7 +7,15 @@ body {
   font-family: 'Times New Roman', Times, serif;
   margin: 0;
 }
-
+figure {
+  margin: 0;
+}
+footer {
+  width: 50%;
+}
+header {
+  margin: -1px;
+}
 .article-media {
   color: #666;
   font-family: Arial, Helvetica, sans-serif;
@@ -34,7 +42,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.7px;
   line-height: 19px;
-  margin: 0;
+  margin: 4px 0 0 0;
 }
 .border {
   border-bottom: 2px solid rgb(226, 226, 226);
@@ -59,11 +67,13 @@ body {
 .fas.fa-bars {
   float: left;
   margin-left: 1%;
+  margin-top: 5px;
 }
 .fas.fa-search {
   float: left;
   margin-left: 2%;
   margin-right: 2%;
+  margin-top: 5px;
 }
 .foot-button {
   font-size: 15px;
@@ -113,7 +123,9 @@ body {
   align-items: center;
   background-color: white;
   border-bottom: 1px solid #d1d1d1;
-  display: inline-block;
+  display: inline-block; 
+  /*display: flex;*/
+  vertical-align: middle;
   font-family: Arial, Helvetica, sans-serif;
   height: 32px;
   margin-top: -2px;
@@ -125,7 +137,6 @@ body {
 }
 /* Grabs nav-button "LOG IN" */
 .nav-button:first-of-type {
-  float: right;
   margin-right: 1.5%;
 }
 /* Grabs nav-button "SUBSCRIBE NOW" */
@@ -138,10 +149,10 @@ body {
 .side-box {
     float: right;
     height: 500px;
-    margin: 0 4%;
+    margin: 0 5%;
     top: 1200px;
     position: relative;
-    width: 220px;
+    width: 230px;
 }
 .side-box h2 {
   border-bottom: 1px solid rgb(226, 226, 226);

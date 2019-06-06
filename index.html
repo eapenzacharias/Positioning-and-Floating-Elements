@@ -10,23 +10,30 @@
 </head>
 <body>
   <!-- Navbar Navbar -->
-  <navbar class="navbar">
-    <i class="fas fa-bars"></i>
-    <i class="fas fa-search"></i>
-    <h3 class="article-section" >Space & Cosmos</h3>
-    <img id="new-york-times-logo" class="logo small" src="assets\The_New_York_Times_logo.png" alt="New York Times logo">
-    <button class="page-button nav-button" >LOG IN</button>
-    <button class="page-button nav-button" >SUBSCRIBE NOW</button>
-  </navbar>
+  <header>
+    <navbar class="navbar">
+      <i class="fas fa-bars"></i>
+      <i class="fas fa-search"></i>
+      <h3 class="article-section" >Space & Cosmos</h3>
+      <img id="new-york-times-logo" class="logo small" src="assets\The_New_York_Times_logo.png" alt="New York Times logo">
+      <button class="page-button nav-button" >LOG IN</button>
+      <button class="page-button nav-button" >SUBSCRIBE NOW</button>
+    </navbar>
+  </header>
+  <main>
   <h1 class="title main container">Space Ripples Reveal<br>Big Bang’s Smoking Gun</h1>
   <div class="container title-img article-media">
-    <img src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt="Title Image">
-    <p>Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the 
-      universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 
-      billion years ago.<br><span>Alan Rick Friedman for The New York Times</span></p>
+    <figure>
+        <img src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-articleLarge.jpg?quality=75&auto=webp&disable=upscale" alt="Title Image">
+        <figcaption>
+          <p>Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the 
+          universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 
+          billion years ago.<br><span>Alan Rick Friedman for The New York Times</span></p>
+        </figcaption>
+    </figure>
   </div>
   <!-- Recomended Aricles: Side Box -->
-  <div class="side-box">
+  <aside class="side-box">
     <h2>Editors’ Picks</h2>
     <div class="small-box">
       <img src="https://static01.nyt.com/images/2019/05/07/fashion/00EARLYRISERS/merlin_154521663_f1f18b09-85c1-4cdb-b2b0-bfe6d53b844c-square640.jpg?quality=75&auto=webp&disable=upscale&width=350" alt="Thumbnail">
@@ -52,7 +59,7 @@
     <div class="small-box">
       <h3>How Emma Boettcher Beat James Holzhauer on ‘Jeopardy!’</h3>
     </div>
-    </div>
+  </aside>
   <div class="main container">
     <!-- Author, Date, and Metadata -->
     <div class="meta-data">
@@ -71,9 +78,10 @@
         <i class="far fa-bookmark"></i>
         <!--Comments-->
         <i class="far fa-comment-alt"></i>
-      </span>
-    <!-- Article Body -->      
+      </span>      
     </div>
+    <!-- Article Body -->
+    <section>
       <p>
         CAMBRIDGE, Mass. — One night late in 1979, an itinerant young physicist named Alan Guth, with a new son and a year’s appointment at Stanford, stayed up late with his notebook and equations, venturing far beyond the world of known physics.
       </p>
@@ -108,6 +116,8 @@
       <p>
         Confirming inflation would mean that the universe we see, extending 14 billion light-years in space with its hundreds of billions of galaxies, is only an infinitesimal patch in a larger cosmos whose extent, architecture and fate are unknowable. Moreover, beyond our own universe there might be an endless number of other universes bubbling into frothy eternity, like a pot of pasta water boiling over.
       </p>
+    </section>
+    <section>
       <h3 class="subtitle">‘As Big as It Gets’</h3>
       <p>
         In our own universe, it would serve as a window into the forces operating at energies forever beyond the reach of particle accelerators on Earth and yield new insights into gravity itself. Dr. Kovac’s ripples would be the first direct observation of gravitational waves, which, according to Einstein’s theory of general relativity, should ruffle space-time.
@@ -175,13 +185,20 @@
       </p>
       <!-- Image -->
       <div class="container article-media">
-        <img src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-jumbo.jpg?quality=90&auto=webp" alt="Satellite Image">
-        <p>
-          The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.<br><span>Steffen Richter/Associated Press</span>
-        </p>
+        <figure>
+          <img src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-jumbo.jpg?quality=90&auto=webp" alt="Satellite Image">
+          <figcaption>
+            <p>
+              The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.<br><span>Steffen Richter/Associated Press</span>
+            </p>
+          </figcaption>
+        </figure>
       </div>
+    </section>
+    </main>
       <!-- Article Footer -->
-      <div class="container footer">
+      
+      <footer class="container footer">
         <p>A version of this article appears in print on March 17, 2014, on Page A1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. Order Reprints | Today’s Paper | Subscribe</p>
         <button class="page-button foot-button">Read 654 Comments</button>
         <span class="icons">
@@ -194,7 +211,7 @@
           <!--Share-->
           <i class="fas fa-share"></i>
         </span>
-      </div>
+      </footer>
   </div>
 </body>
 </html>
