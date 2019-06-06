@@ -1,9 +1,7 @@
 
-/*
 * {
   border: 1px solid red !important;
 }
-*/
 
 body {
   font-family: 'Times New Roman', Times, serif;
@@ -37,6 +35,11 @@ body {
   letter-spacing: 0.7px;
   line-height: 19px;
   margin: 0;
+}
+.border {
+  border-bottom: 2px solid rgb(226, 226, 226);
+  margin: 30px auto;
+  width: 72px;
 }
 .page-button {
   background-color: #6288a5;
@@ -140,6 +143,12 @@ body {
     position: relative;
     width: 220px;
 }
+.side-box h2 {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  font-size: 14px;
+  line-height: 14px;
+  padding-bottom: 12px;
+}
 .small {
   height: 73%;
   width: auto;
@@ -161,10 +170,10 @@ body {
     margin: 0 8px 0 8px;
 }
 .subscribe{
-    text-align: center;
-    font-weight: 700;
-    line-height: 25px;
-    margin: 40px 0;
+  text-align: center;
+  font-weight: 700;
+  line-height: 25px;
+  margin: 40px 0;
 }
 .title {
   font-family: Georgia, 'Times New Roman', Times, serif;
